@@ -7,8 +7,8 @@
 </defs>
 <rect width="1240" height="700" fill="#ffffff"/>
 <text x="40" y="48" class="title">把填表时间还给科研：论文、他引、专利数字自动汇总的AI Skill</text>
-<text x="40" y="74" class="sub">每位老师只填自己的标识；所有数据来自公开数据源，结果逐条可追溯</text>
-<text x="40" y="118" class="h">① 老师输入</text>
+<text x="40" y="74" class="sub">每位科研人员只填自己的标识；所有数据来自公开数据源，结果逐条可追溯</text>
+<text x="40" y="118" class="h">① 使用者输入</text>
 <text x="320" y="118" class="h">② 公开数据源</text>
 <text x="620" y="118" class="h">③ 合并与交叉核验</text>
 <text x="960" y="118" class="h">④ 输出</text>
