@@ -6,7 +6,7 @@
 <style>text{font-family:"Microsoft YaHei","微软雅黑",sans-serif;fill:#0f172a}.t{font-size:15px;font-weight:700}.s{font-size:12.5px;fill:#475569}.h{font-size:16px;font-weight:700;fill:#334155}.title{font-size:24px;font-weight:700}.sub{font-size:14px;fill:#64748b}</style>
 </defs>
 <rect width="1240" height="700" fill="#ffffff"/>
-<text x="40" y="48" class="title">paper-patent-stats：一次输入，论文与专利数据交叉核验后出表</text>
+<text x="40" y="48" class="title">把填表时间还给科研：论文、他引、专利数字自动汇总的AI Skill</text>
 <text x="40" y="74" class="sub">每位老师只填自己的标识；所有数据来自公开数据源，结果逐条可追溯</text>
 <text x="40" y="118" class="h">① 老师输入</text>
 <text x="320" y="118" class="h">② 公开数据源</text>
@@ -43,7 +43,7 @@
 <text x="334" y="482" class="s">被限流时改读浏览器导出 CSV</text>
 <rect x="620" y="135" width="290" height="105" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
 <text x="634" y="161" class="t">合并去重</text>
-<text x="634" y="183" class="s">短标题条目、同页码双标题</text>
+<text x="634" y="183" class="s">短标题条目、一篇挂两个标题</text>
 <text x="634" y="202" class="s">剔除预印本、学位论文</text>
 <text x="634" y="221" class="s">DOI 与题目/作者逐篇核对</text>
 <rect x="620" y="255" width="290" height="150" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5" filter="url(#sh)"/>
@@ -51,7 +51,7 @@
 <text x="634" y="303" class="s">A  OpenAlex 作者 ID</text>
 <text x="634" y="322" class="s">B  OpenCitations × Crossref 姓名</text>
 <text x="634" y="341" class="s">C  ORCID 自引标记（下限）</text>
-<text x="634" y="360" class="s">不变式：自己引自己必判自引</text>
+<text x="634" y="360" class="s">自检：自己引自己必判自引</text>
 <text x="634" y="379" class="s">A/B 差 >3 个百分点即报警</text>
 <rect x="620" y="420" width="290" height="95" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
 <text x="634" y="446" class="t">刊物分类</text>
