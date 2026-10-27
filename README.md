@@ -1,6 +1,10 @@
-# paper-patent-stats
+<p align="center">
+  <img src="assets/banner.svg" alt="paper-patent-stats：把填表时间还给科研" width="100%">
+</p>
 
-**把填表时间还给科研：论文、他引、专利数字自动汇总的 AI Skill。** 多源交叉核验，每个数字都说得清来源。
+<h1 align="center">paper-patent-stats</h1>
+
+<p align="center"><strong>把填表时间还给科研：论文、他引、专利数字自动汇总的 AI Skill。</strong><br>多源交叉核验，每个数字都说得清来源。</p>
 
 职称评审、人才计划、基金申请、结题和年度考核，几乎每张表都要问同样几个数：发表论文共计多少篇，国外、国内刊物各多少篇，SCI、EI 各收录多少篇，总引用和他引各多少次，授权专利有哪些。
 

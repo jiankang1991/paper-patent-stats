@@ -1,0 +1,59 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">paper-patent-stats 论文专利统计</title>
+<desc id="desc">Banner: papers, citations and granted patents compiled for application forms, cross-checked across open sources.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#f5f8ff"/><stop offset="0.5" stop-color="#eef4ff"/><stop offset="1" stop-color="#fff8ec"/></linearGradient>
+<linearGradient id="blue" x1="90" y1="60" x2="290" y2="280" gradientUnits="userSpaceOnUse"><stop stop-color="#1d4ed8"/><stop offset="1" stop-color="#1e3a8a"/></linearGradient>
+<filter id="shadow" x="-20%" y="-20%" width="140%" height="150%" color-interpolation-filters="sRGB"><feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#0f172a" flood-opacity="0.14"/></filter>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.5" fill="#94a3b8" opacity="0.28"/></pattern>
+<style>text{font-family:"Microsoft YaHei","微软雅黑",sans-serif}</style>
+</defs>
+<rect width="1200" height="360" rx="34" fill="url(#bg)"/>
+<rect x="20" y="20" width="1160" height="320" rx="28" fill="#ffffff" fill-opacity="0.6" stroke="#dbe4f5"/>
+<rect x="40" y="40" width="1120" height="280" rx="20" fill="url(#dots)"/>
+<path d="M86 92 C120 62 170 48 212 54" stroke="#fbbf24" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+<circle cx="172" cy="180" r="88" fill="url(#blue)" filter="url(#shadow)"/>
+<circle cx="172" cy="180" r="72" stroke="#bfdbfe" stroke-width="2" opacity="0.8"/>
+<text x="172" y="168" text-anchor="middle" font-size="30" font-weight="700" fill="#ffffff">论文</text>
+<text x="172" y="208" text-anchor="middle" font-size="30" font-weight="700" fill="#fde68a">专利</text>
+<path d="M118 222 C146 236 196 236 226 214" stroke="#fde68a" stroke-width="4" stroke-linecap="round"/>
+<rect x="310" y="76" width="138" height="30" rx="15" fill="#eff6ff" stroke="#93c5fd"/>
+<circle cx="330" cy="91" r="5" fill="#1d4ed8"/>
+<text x="344" y="97" font-size="16" font-weight="700" fill="#1e3a8a">Agent Skill</text>
+<text x="308" y="160" font-size="50" font-weight="800" fill="#0f172a">把填表时间还给科研</text>
+<text x="310" y="203" font-size="24" font-weight="700" fill="#334155">论文、他引、专利数字自动汇总</text>
+<text x="310" y="240" font-size="18" fill="#475569">发表总数 · 国内外刊物 · SCI / EI · 总引用 · 授权专利</text>
+<rect x="310" y="262" width="128" height="30" rx="15" fill="#fef3c7"/>
+<text x="374.0" y="283" text-anchor="middle" font-size="15" font-weight="700" fill="#92400e">多源交叉核验</text>
+<rect x="448" y="262" width="146" height="30" rx="15" fill="#dbeafe"/>
+<text x="521.0" y="283" text-anchor="middle" font-size="15" font-weight="700" fill="#1e40af">每个数字附口径</text>
+<rect x="604" y="262" width="146" height="30" rx="15" fill="#dcfce7"/>
+<text x="677.0" y="283" text-anchor="middle" font-size="15" font-weight="700" fill="#166534">不内置个人数据</text>
+<rect x="820" y="60" width="96" height="34" rx="17" fill="#ffffff" stroke="#c7d2fe"/>
+<text x="868" y="83" text-anchor="middle" font-size="14" font-weight="700" fill="#3730a3">ORCID</text>
+<path d="M916 78 C950 78 930 180 960 180" stroke="#a5b4fc" stroke-width="2" stroke-dasharray="5 4"/>
+<rect x="800" y="152" width="96" height="34" rx="17" fill="#ffffff" stroke="#c7d2fe"/>
+<text x="848" y="175" text-anchor="middle" font-size="14" font-weight="700" fill="#3730a3">Scholar</text>
+<path d="M896 170 C930 170 930 180 960 180" stroke="#a5b4fc" stroke-width="2" stroke-dasharray="5 4"/>
+<rect x="820" y="244" width="96" height="34" rx="17" fill="#ffffff" stroke="#c7d2fe"/>
+<text x="868" y="267" text-anchor="middle" font-size="14" font-weight="700" fill="#3730a3">OpenAlex</text>
+<path d="M916 262 C950 262 930 180 960 180" stroke="#a5b4fc" stroke-width="2" stroke-dasharray="5 4"/>
+<rect x="960" y="70" width="190" height="230" rx="16" fill="#ffffff" stroke="#e2e8f0" filter="url(#shadow)"/>
+<rect x="982" y="92" width="110" height="12" rx="6" fill="#1d4ed8"/>
+<text x="984" y="130" font-size="14" fill="#475569">论文</text>
+<text x="1084" y="130" text-anchor="end" font-size="15" font-weight="700" fill="#1d4ed8">56</text>
+<circle cx="1112" cy="125" r="9" fill="#dcfce7"/><path d="M1107 125 l4 4 l7 -8" stroke="#16a34a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="984" y="162" font-size="14" fill="#475569">SCI</text>
+<text x="1084" y="162" text-anchor="end" font-size="15" font-weight="700" fill="#1d4ed8">38</text>
+<circle cx="1112" cy="157" r="9" fill="#dcfce7"/><path d="M1107 157 l4 4 l7 -8" stroke="#16a34a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="984" y="194" font-size="14" fill="#475569">EI</text>
+<text x="1084" y="194" text-anchor="end" font-size="15" font-weight="700" fill="#1d4ed8">13</text>
+<circle cx="1112" cy="189" r="9" fill="#dcfce7"/><path d="M1107 189 l4 4 l7 -8" stroke="#16a34a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="984" y="226" font-size="14" fill="#475569">他引</text>
+<text x="1084" y="226" text-anchor="end" font-size="15" font-weight="700" fill="#1d4ed8">1410</text>
+<circle cx="1112" cy="221" r="9" fill="#dcfce7"/><path d="M1107 221 l4 4 l7 -8" stroke="#16a34a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="984" y="258" font-size="14" fill="#475569">专利</text>
+<text x="1084" y="258" text-anchor="end" font-size="15" font-weight="700" fill="#1d4ed8">3</text>
+<circle cx="1112" cy="253" r="9" fill="#dcfce7"/><path d="M1107 253 l4 4 l7 -8" stroke="#16a34a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="1055" y="292" text-anchor="middle" font-size="11" fill="#94a3b8">示例数据</text>
+</svg>
