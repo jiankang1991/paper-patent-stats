@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 700" width="1240" height="700">
+<defs>
+<marker id="ar" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#2563eb"/></marker>
+<marker id="ag" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#059669"/></marker>
+<filter id="sh" x="-10%" y="-10%" width="120%" height="130%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.10"/></filter>
+<style>text{font-family:"Microsoft YaHei","微软雅黑",sans-serif;fill:#0f172a}.t{font-size:15px;font-weight:700}.s{font-size:12.5px;fill:#475569}.h{font-size:16px;font-weight:700;fill:#334155}.title{font-size:24px;font-weight:700}.sub{font-size:14px;fill:#64748b}</style>
+</defs>
+<rect width="1240" height="700" fill="#ffffff"/>
+<text x="40" y="48" class="title">paper-patent-stats：一次输入，论文与专利数据交叉核验后出表</text>
+<text x="40" y="74" class="sub">每位老师只填自己的标识；所有数据来自公开数据源，结果逐条可追溯</text>
+<text x="40" y="118" class="h">① 老师输入</text>
+<text x="320" y="118" class="h">② 公开数据源</text>
+<text x="620" y="118" class="h">③ 合并与交叉核验</text>
+<text x="960" y="118" class="h">④ 输出</text>
+<rect x="40" y="135" width="230" height="250" rx="10" fill="#eff6ff" stroke="#93c5fd" stroke-width="1.5" filter="url(#sh)"/>
+<text x="54" y="161" class="t">个人标识</text>
+<text x="54" y="183" class="s">中文姓名 / 英文（拼音）姓名</text>
+<text x="54" y="202" class="s">ORCID iD</text>
+<text x="54" y="221" class="s">Google Scholar 用户 ID</text>
+<text x="54" y="240" class="s">工作单位（现任 + 曾任）</text>
+<text x="54" y="259" class="s">邮箱（可选，加速查询）</text>
+<text x="54" y="278" class="s">他引口径（去本人 / 去全部作者）</text>
+<rect x="40" y="410" width="230" height="150" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5"/>
+<text x="54" y="436" class="t">可选：官方名单</text>
+<text x="54" y="458" class="s">SCIE 期刊表（MJL 导出）</text>
+<text x="54" y="477" class="s">Ei Compendex 源刊表</text>
+<text x="54" y="496" class="s">浏览器保存的 Scholar 页 /</text>
+<text x="54" y="515" class="s">Google Patents 导出 CSV</text>
+<rect x="320" y="135" width="250" height="110" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+<text x="334" y="161" class="t">论文清单</text>
+<text x="334" y="183" class="s">ORCID 作品列表</text>
+<text x="334" y="202" class="s">Google Scholar 个人主页</text>
+<text x="334" y="221" class="s">（总引用、h-index、i10）</text>
+<rect x="320" y="265" width="250" height="130" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+<text x="334" y="291" class="t">元数据与引用网络</text>
+<text x="334" y="313" class="s">OpenAlex：施引文献 × 作者 ID</text>
+<text x="334" y="332" class="s">Crossref：DOI 核验、作者署名</text>
+<text x="334" y="351" class="s">OpenCitations：引用链接</text>
+<text x="334" y="370" class="s">  + ORCID 自引标记</text>
+<rect x="320" y="415" width="250" height="100" rx="10" fill="#f0fdf4" stroke="#86efac" stroke-width="1.5"/>
+<text x="334" y="441" class="t">专利</text>
+<text x="334" y="463" class="s">Google Patents 检索 + 详情页</text>
+<text x="334" y="482" class="s">被限流时改读浏览器导出 CSV</text>
+<rect x="620" y="135" width="290" height="105" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
+<text x="634" y="161" class="t">合并去重</text>
+<text x="634" y="183" class="s">短标题条目、同页码双标题</text>
+<text x="634" y="202" class="s">剔除预印本、学位论文</text>
+<text x="634" y="221" class="s">DOI 与题目/作者逐篇核对</text>
+<rect x="620" y="255" width="290" height="150" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5" filter="url(#sh)"/>
+<text x="634" y="281" class="t">他引：三路独立核验</text>
+<text x="634" y="303" class="s">A  OpenAlex 作者 ID</text>
+<text x="634" y="322" class="s">B  OpenCitations × Crossref 姓名</text>
+<text x="634" y="341" class="s">C  ORCID 自引标记（下限）</text>
+<text x="634" y="360" class="s">不变式：自己引自己必判自引</text>
+<text x="634" y="379" class="s">A/B 差 >3 个百分点即报警</text>
+<rect x="620" y="420" width="290" height="95" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
+<text x="634" y="446" class="t">刊物分类</text>
+<text x="634" y="468" class="s">国内/国外、SCI、EI（不含 SCI）</text>
+<text x="634" y="487" class="s">规则表判断，可被官方名单覆盖</text>
+<rect x="620" y="530" width="290" height="105" rx="10" fill="#fff7ed" stroke="#fdba74" stroke-width="1.5"/>
+<text x="634" y="556" class="t">专利整理</text>
+<text x="634" y="578" class="s">精确姓名匹配（张伟 ≠ 李张伟）</text>
+<text x="634" y="597" class="s">同一申请的公开/授权合并</text>
+<text x="634" y="616" class="s">发明人排名 k/N、授权日、国别</text>
+<rect x="960" y="135" width="240" height="150" rx="10" fill="#faf5ff" stroke="#c4b5fd" stroke-width="1.5" filter="url(#sh)"/>
+<text x="974" y="161" class="t">填表汇总 summary.md</text>
+<text x="974" y="183" class="s">论文总数、国内/国外</text>
+<text x="974" y="202" class="s">SCI、EI（不含 SCI）</text>
+<text x="974" y="221" class="s">总引用、两种口径他引</text>
+<text x="974" y="240" class="s">每个数字附口径与核验结果</text>
+<rect x="960" y="305" width="240" height="100" rx="10" fill="#faf5ff" stroke="#c4b5fd" stroke-width="1.5"/>
+<text x="974" y="331" class="t">逐条明细</text>
+<text x="974" y="353" class="s">publications.csv（逐篇）</text>
+<text x="974" y="372" class="s">patents.csv（逐件）</text>
+<text x="974" y="391" class="s">citations_by_paper.csv</text>
+<rect x="960" y="425" width="240" height="130" rx="10" fill="#fef2f2" stroke="#fca5a5" stroke-width="1.5"/>
+<text x="974" y="451" class="t">需本人确认</text>
+<text x="974" y="473" class="s">只出现在单一来源的论文</text>
+<text x="974" y="492" class="s">DOI 不符、收录待核</text>
+<text x="974" y="511" class="s">疑似同名的专利</text>
+<text x="974" y="530" class="s">随机 20 条施引抽查</text>
+<path d="M 270,190 L 318,190" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 270,330 L 318,330" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 270,470 L 318,470" fill="none" stroke="#059669" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#ag)"/>
+
+<path d="M 570,190 L 618,190" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 570,330 L 618,330" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 570,465 L 600,465 L 600,580 L 618,580" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 910,190 L 958,190" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 910,330 L 935,330 L 935,220 L 958,220" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 910,467 L 940,467 L 940,355 L 958,355" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#ar)"/>
+<path d="M 910,580 L 945,580 L 945,490 L 958,490" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#ar)"/>
+<rect x="40" y="590" width="540" height="70" rx="8" fill="#ffffff" stroke="#e2e8f0"/>
+<line x1="58" y1="614" x2="98" y2="614" stroke="#2563eb" stroke-width="2"/><text x="106" y="619" class="s">数据流</text>
+<line x1="58" y1="640" x2="98" y2="640" stroke="#059669" stroke-width="2" stroke-dasharray="5,3"/><text x="106" y="645" class="s">可选输入（官方名单、浏览器导出）</text>
+<text x="330" y="619" class="s">不爬 Scholar 施引页，不绕验证码</text>
+<text x="330" y="645" class="s">全部为标准库 Python，结果本地缓存</text>
+</svg>

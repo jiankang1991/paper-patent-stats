@@ -1,0 +1,41 @@
+pattern,domestic,sci,ei,note
+# Seed table (remote sensing / radar / signal processing heavy). First match wins. Matched (case-insensitive regex) against "OpenAlex venue | list venue". Empty cell = fall back to defaults.
+# 国内刊物：中国主办/出版的期刊（中英文都算）
+Journal of Radars|雷达学报|Leida Xuebao,国内,否,是,雷达学报：EI 收录，非 SCI
+Journal of Systems Engineering and Electronics,国内,是,是,JSEE：中国航天科工二院主办，SCIE+EI
+Chinese Journal of Electronics,国内,是,是,
+Science China,国内,是,是,
+电子学报|Acta Electronica Sinica,国内,否,是,
+测绘学报|Acta Geodaetica et Cartographica Sinica,国内,否,是,
+遥感学报|National Remote Sensing Bulletin|Journal of Remote Sensing$,国内,否,是,
+计算机学报|Chinese Journal of Computers,国内,否,是,常见情况，以官方名单为准
+软件学报|Journal of Software,国内,否,是,常见情况，以官方名单为准
+自动化学报|Acta Automatica Sinica,国内,否,是,常见情况，以官方名单为准
+电子与信息学报|Journal of Electronics (&|and) Information Technology,国内,否,是,常见情况，以官方名单为准
+中国电机工程学报|Proceedings of the CSEE,国内,否,是,常见情况，以官方名单为准
+光学学报|Acta Optica Sinica,国内,否,是,常见情况，以官方名单为准
+物理学报|Acta Physica Sinica,国内,是,是,常见情况，以官方名单为准
+Chinese Journal of Aeronautics|Science Bulletin|National Science Review,国内,是,是,常见情况，以官方名单为准
+# 国外期刊
+^IEEE (Transactions|Journal|Geoscience and Remote Sensing (Letters|Magazine)|Signal Processing Letters)|IEEE Trans|IEEE Geosci,国外,是,是,IEEE 期刊 SCIE+EI
+ISPRS Journal of Photogrammetry,国外,是,是,
+Pattern Recognition$|^Pattern Recognition \|,国外,是,是,
+^Signal Processing( \||$),国外,是,是,
+Knowledge-Based Systems,国外,是,是,
+Neurocomputing,国外,是,是,
+Image and Vision Computing,国外,是,是,
+Remote Sensing of Environment,国外,是,是,
+International Journal of Applied Earth Observation,国外,是,是,
+^Remote Sensing( \||\s*$| \d),国外,是,待核,MDPI Remote Sensing：SCIE；EI 覆盖年份需查 Compendex 名单
+^Sensors( \||\s*$| \d),国外,是,待核,MDPI Sensors：SCIE；EI 覆盖年份需查 Compendex 名单
+# 会议（不进 SCI；SCI 列留空即按「会议=否」）
+IGARSS|International Geoscience and Remote Sensing Symposium,国外,,是,
+International Conference on Signal Processing|\bICSP\b,国外,,是,
+Information Fusion|\bFUSION\b,国外,,是,
+ACM International Conference on Multimedia|ACM Multimedia,国外,,是,
+EUSAR|European Conference on Synthetic Aperture Radar,国外,,是,
+CIE International Conference on Radar,国外,,是,
+SAR in Big Data Era|BIGSARDATA,国外,,是,
+China International SAR Symposium|\bCISS\b,国外,,是,
+IET International Radar Conference|\bIRC 20,国外,,是,
+FRINGE,国外,,否,ESA FRINGE 研讨会（ESA SP），不进 EI

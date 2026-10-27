@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+# run outputs (contain personal data)
+my-stats/
+my-patents/
+cache/

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper & Patent Stats"
+  short_description: "Count papers, SCI/EI, 他引 and granted patents, cross-checked"
+  default_prompt: "Use $paper-patent-stats to count my papers, SCI/EI indexing, citations by others and granted patents for a Chinese form."
